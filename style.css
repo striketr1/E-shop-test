@@ -48,7 +48,7 @@ h1 {
 }
 
 h2 {
-    color: white;
+    color: blueviolet;
     font-size: 8rem;
 }
 
@@ -83,18 +83,35 @@ header .nav-list ul a {
 }
 
 section {
+    display: flex;
     min-height: 700px;
     width: 100%;
+    align-items: center;
+    flex-direction: column;
 }
 
 section#Home {
     display: flex;
-    height: 100%;
+    height: 865px;
     background-image: url("japan-2014619_1920.jpg");
     width: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: white;
+    color: blueviolet;
     font-size: 2rem;
+}
+section#Home .pozadi {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(211, 211, 211, 0.418);
+    align-items: center;
+
+}
+section#zbozi section {
+    display: flex;
+    flex-direction: row;
+}
+section#zbozi section article {
+    width: 25%;
 }
